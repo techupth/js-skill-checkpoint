@@ -2,7 +2,19 @@
 
 function filterInStockProducts(products) {
   // เริ่มเขียนโค้ดตรงนี้
+ 
+  let fruit =products.filter(stock => stock.quantity )
+  
+  
+  return fruit;
+  
 }
+
+
+
+
+
+
 
 // ตัวอย่างการใช้งาน
 const products = [
